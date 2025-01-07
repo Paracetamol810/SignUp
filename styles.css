@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'poppins';
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(bgblue.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 440px;
+    height: 480px;
+    padding: 30px;
+}
+
+.login-header{
+    text-align: center;
+    margin: 20px 0 40px 0;
+    cursor: default;
+}
+.login-header header{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 600;
+}
+.input-box .input-field{
+    width: 100%;
+    height: 60px;
+    font-size: 17px;
+    padding: 0 25px;
+    margin-bottom: 15px;
+    border-radius: 30px;
+    border: none;
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.1);
+    outline: none;
+    transition: .3s;
+    background: rgba(255, 255, 255, 0.5);
+   
+}
+::placeholder{
+    font-weight: 300;
+    color: #222;
+}
+.input-field:focus{
+    width: 105%;
+}
+.forgot{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    text-align: center;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0);
+    
+}
+#check{
+    align-items: center;
+    margin-right: 10px;
+    accent-color: #333;
+}
+.login-link a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+.login-link a:hover{
+    font-weight: 700;
+    transition: .2s;
+    color: #fff
+}
+.input-submit{
+    position: relative;
+}
+.submit-btn{
+    width: 100%;
+    height: 60px;
+    background: #344a80;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s;
+    ;
+   
+}
+.input-submit label{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: #fff;
+    font-weight: 600;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.submit-btn:hover{
+    border: none;
+    background: #24396b;
+    transform: scale( 1.05,1);
+}
+
+.login-link{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 1px;
+}
+.login-box{
+    background: transparent;
+    border: none;
+    border-radius: 25px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0px 5px 10px 1px rgba(0,0,0,0.3);
+}
